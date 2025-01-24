@@ -14,7 +14,7 @@ Docker images are uploaded to dedicated Amazon ECR repository.
 IAM roles and policies are configured to ensure secure access.
 
 ## Steps to use Dockerfile
-1.Clone the Repository   
+1. Clone the Repository   
 git clone  https://github.com/1ahmedharris/Docker-Image-Builder.git  
 cd Docker-Image-Builder  
 2. Build and Run Locally   
