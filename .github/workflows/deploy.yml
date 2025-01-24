@@ -36,12 +36,10 @@ jobs:
         ECR_REPOSITORY: python-images  
         IMAGE_TAG: latest             
       run: |
-        # Get the Amazon ECR repository URI
         REPOSITORY_URI=$(aws ecr describe-repositories --repository-names $ECR_REPOSITORY --query 'repositories[0].repositoryUri' --output text)
         
-        # Build the Docker image
         docker build -t $ECR_REPOSITORY .
-        # Tag Docker image with repository URI and tag
+       
         docker tag $ECR_REPOSITORY:latest $REPOSITORY_URI:$IMAGE_TAG
-        # Push the Docker image to Amazon ECR
+       
         docker push $REPOSITORY_URI:$IMAGE_TAG
