@@ -1,4 +1,4 @@
-name: Build Dockerfile & Uplaod Image 
+name: Build Dockerfile & Uplaod Image to AWS ECR 
 
 on:
   push:
