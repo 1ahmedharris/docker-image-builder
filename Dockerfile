@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy app into image 
-COPY app.py /app
+COPY app.py /app  
 
 # Run command to start application
 CMD ["python3", "app.py"]
