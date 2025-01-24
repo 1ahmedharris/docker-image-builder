@@ -1,4 +1,4 @@
-name: Build Dockerfile & Uplaod Image to AWS ECR 
+name: Build Dockerfile & Upload Image to AWS ECR 
 
 on:
   push:
@@ -30,8 +30,8 @@ jobs:
       id: login-ecr
       uses: aws-actions/amazon-ecr-login@v1
 
-    # Step 4: Build, tag, and push Docker image to Amazon ECR
-    - name: Build, tag, and push image to Amazon ECR
+    # Step 4: Build, tag, and upload Docker image to Amazon ECR
+    - name: Build, tag, and upload image to Amazon ECR
       env:
         ECR_REPOSITORY: python-images  
         IMAGE_TAG: latest             
