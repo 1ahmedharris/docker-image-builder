@@ -15,8 +15,8 @@ IAM roles and policies are configured to ensure secure access.
 
 ## Steps to use Dockerfile
 1. Clone the Repository   
-git clone  https://github.com/1ahmedharris/Docker-Image-Builder.git  
-cd Docker-Image-Builder  
+git clone  https://github.com/1ahmedharris/Automated-Docker-Image-Builder.git  
+cd Automated-Docker-Image-Builder  
 2. Build and Run Locally   
 docker build -t app .    
 3. Run Docker container  
