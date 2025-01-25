@@ -40,6 +40,12 @@ jobs:
         
         docker build -t $ECR_REPOSITORY .
        
-        docker tag $ECR_REPOSITORY:latest $REPOSITORY_URI:$IMAGE_TAG
-       
         docker push $REPOSITORY_URI:$IMAGE_TAG
+
+      env:
+        ECR_REGISTRY: ${{ steps.login-pf-ecr.outputs.registry }}
+        ECR_REPOSITORY: ${{secrets.ECR_REPOSITORY}}
+        IMAGE_TAG: latest
+      run: |
+        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
