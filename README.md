@@ -25,7 +25,6 @@ docker run app
 5. Configure necessary settings.
 6. Click Create repository.
 ## 3. Configure GitHub Secrets
-Configuring GitHub Secrets
 1. Go to Docker-Image-Builder repository.
 2. Click Settings.
 3. Navigate to Secrets and variables, Click Actions.
