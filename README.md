@@ -17,7 +17,7 @@ docker build -t app .
 3. Run Docker container  
 docker run app
 ## Steps to Configure AWS ECR registry
-1. Log in to Your AWS Account:
+1. Login to Your AWS Account:
 2. Navigate to Amazon Elastic Container Registry (ECR).
 3. Click Create repository.
 4. Enter Repository name.
