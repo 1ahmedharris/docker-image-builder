@@ -30,7 +30,7 @@ jobs:
       id: login-ecr
       uses: aws-actions/amazon-ecr-login@v2
 
-    # Step 4: Build, tag, then upload Docker image to Amazon ECR
+    # Step 4: Build, tag, then push Docker image to Amazon ECR
     - name: Build, tag, and push image to Amazon ECR
       id: build-image
       env:
