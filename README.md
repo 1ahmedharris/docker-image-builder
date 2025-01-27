@@ -10,7 +10,7 @@ GitHub Actions CI/CD Pipeline:
 Triggers on push/pull requests. Automates building Docker images and deploying images to Amazon ECR.
 
 AWS ECR Integration:
-Docker images are uploaded to dedicated Amazon ECR repository.
+Docker images are uploaded to AWS ECR repository.
 IAM roles and policies are configured to ensure secure access.
 
 ## Steps to use Dockerfile
