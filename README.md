@@ -9,7 +9,7 @@ Builds a lightweight Docker image for the application.
 GitHub Actions CI/CD Workflow:
 Automates building, tagging, then pushing Docker images to AWS ECR.  
 ## Steps to Using Repository
-## Clone Repository
+## 1. Clone Repository
 1. Clone the Repository   
 git clone  https://github.com/1ahmedharris/Docker-Image-Builder.git  
 cd Docker-Image-Builder  
@@ -17,14 +17,14 @@ cd Docker-Image-Builder
 docker build -t app .    
 3. Run Docker container  
 docker run app
-## Configure AWS ECR registry
+## 2. Configure AWS ECR registry
 1. Login to Your AWS Account.
 2. Navigate to Amazon Elastic Container Registry (ECR).
 3. Click Create repository.
 4. Enter Repository name.
 5. Configure necessary settings.
 6. Click Create repository.
-## Configure GitHub Secrets
+## 3. Configure GitHub Secrets
 Configuring GitHub Secrets
 1. Go to Docker-Image-Builder repository.
 2. Click Settings.
@@ -34,5 +34,5 @@ Configuring GitHub Secrets
 - AWS_SECRET_ACCESS_KEY: Your AWS secret access key  
 - AWS_REGION: Your ECR region  
 - ECR_REPOSITORY: Your AWS ECR repository name
-## Push Images to AWS ECR
+## 4. Push Images to AWS ECR
 1. Commit to repository
