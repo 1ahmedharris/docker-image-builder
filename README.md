@@ -15,4 +15,14 @@ cd Docker-Image-Builder
 2. Build and Run Locally   
 docker build -t app .    
 3. Run Docker container  
-docker run app  
+docker run app
+## Steps to Configure GitHub Secrets
+Configuring GitHub Secrets
+1. Go to the GitHub project repository.
+2. Click on the Settings tab.
+3. Navigate to Secrets and variables, Click Actions.
+4. Click New repository secret, add the following secrets:
+AWS_ACCESS_KEY_ID: Your AWS access key ID.
+AWS_SECRET_ACCESS_KEY: Your AWS secret access key.
+AWS_REGION: AWS ECR region, us-east-1.
+ECR_REPOSITORY: Name of your AWS ECR repository.
