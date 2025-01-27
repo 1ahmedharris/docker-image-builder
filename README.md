@@ -7,7 +7,7 @@ Dockerfile:
 Builds a lightweight Docker image for the application.
 
 GitHub Actions CI/CD Pipeline:
-Triggers on push/pull requests. Automates building Docker images and deploying images to Amazon ECR.
+Triggers on push/pull requests. Automates building Docker images and deploying images to AWS ECR.
 
 AWS ECR Integration:
 Docker images are uploaded to AWS ECR repository.
