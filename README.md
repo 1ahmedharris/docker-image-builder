@@ -25,4 +25,4 @@ Configuring GitHub Secrets
 - AWS_ACCESS_KEY_ID: Your AWS access key ID  
 - AWS_SECRET_ACCESS_KEY: Your AWS secret access key  
 - AWS_REGION: AWS ECR region, us-east-1  
-- ECR_REPOSITORY: Name of your AWS ECR repository  
+- ECR_REPOSITORY: Your AWS ECR repository name
