@@ -1,5 +1,4 @@
-
-name: Build Dockerfile & Upload Image to AWS ECR 
+name: Build Dockerfile & Push Image to AWS ECR 
 
 on:
   push:
@@ -32,7 +31,7 @@ jobs:
       uses: aws-actions/amazon-ecr-login@v1
 
     # Step 4: Build, tag, and upload Docker image to Amazon ECR
-    - name: Build, tag, and upload image to Amazon ECR
+    - name: Build, tag, and push image to Amazon ECR
       id: build-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
