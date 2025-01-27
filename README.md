@@ -19,7 +19,7 @@ docker run app
 ## Steps to Configure GitHub Secrets
 Configuring GitHub Secrets
 1. Go to the GitHub project repository.
-2. Click on the Settings tab.
+2. Click Settings.
 3. Navigate to Secrets and variables, Click Actions.
 4. Click New repository secret, add the following secrets:
 - AWS_ACCESS_KEY_ID: Your AWS access key ID  
