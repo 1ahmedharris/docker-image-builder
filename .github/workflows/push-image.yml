@@ -25,12 +25,12 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ secrets.AWS_REGION }}
 
-    # Step 3: Login to Amazon ECR
+    # Step 3: Login to AWS ECR
     - name: Login to Amazon ECR
       id: login-ecr
       uses: aws-actions/amazon-ecr-login@v2
 
-    # Step 4: Build, tag, then push Docker image to Amazon ECR
+    # Step 4: Build, tag, then push Docker image to AWS ECR
     - name: Build, tag, and push image to Amazon ECR
       id: build-image
       env:
