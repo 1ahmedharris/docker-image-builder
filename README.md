@@ -33,3 +33,5 @@ Configuring GitHub Secrets
 - AWS_SECRET_ACCESS_KEY: Your AWS secret access key  
 - AWS_REGION: Your ECR region  
 - ECR_REPOSITORY: Your AWS ECR repository name
+## Push Images to ECR
+1. Commit to repository
