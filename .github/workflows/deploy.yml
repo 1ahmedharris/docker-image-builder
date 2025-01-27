@@ -28,7 +28,7 @@ jobs:
     # Step 3: Log in to Amazon ECR
     - name: Login to Amazon ECR
       id: login-ecr
-      uses: aws-actions/amazon-ecr-login@v1
+      uses: aws-actions/amazon-ecr-login@v2
 
     # Step 4: Build, tag, and upload Docker image to Amazon ECR
     - name: Build, tag, and push image to Amazon ECR
