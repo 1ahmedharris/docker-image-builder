@@ -10,12 +10,12 @@ GitHub Actions CI/CD Workflow:
 Automates building, tagging, then pushing Docker images to AWS ECR.  
 ## Steps to Using Repository
 ## 1. Clone Repository
-- Clone the Repository   
+- Clone the Repository.   
 git clone  https://github.com/1ahmedharris/Docker-Image-Builder.git  
 cd Docker-Image-Builder  
-- Build and Run Locally   
+- Build and Run Locally.   
 docker build -t app .    
-- Run Docker container  
+- Run Docker container.  
 docker run app
 ## 2. Configure AWS ECR registry
 - Login to Your AWS Account.
