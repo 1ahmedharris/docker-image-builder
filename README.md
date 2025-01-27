@@ -8,7 +8,7 @@ Builds a lightweight Docker image for the application.
 
 GitHub Actions CI/CD Pipeline:
 Automates building, tagging, then pushing Docker images to AWS ECR.
-## Steps to use Dockerfile
+## Steps to Clone Repository
 1. Clone the Repository   
 git clone  https://github.com/1ahmedharris/Docker-Image-Builder.git  
 cd Docker-Image-Builder  
