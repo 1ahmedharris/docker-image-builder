@@ -29,7 +29,7 @@ docker run app
 - Click Settings.
 - Navigate to Secrets and variables, Click Actions.
 - Click New repository secret, add the following secrets:
-* AWS_ACCESS_KEY_ID: Your AWS access key ID  
+$ AWS_ACCESS_KEY_ID: Your AWS access key ID  
 - AWS_SECRET_ACCESS_KEY: Your AWS secret access key  
 - AWS_REGION: Your ECR region  
 - ECR_REPOSITORY: Your AWS ECR repository name
