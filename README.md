@@ -8,11 +8,6 @@ Builds a lightweight Docker image for the application.
 
 GitHub Actions CI/CD Pipeline:
 Automates building Docker images and pushing images to AWS ECR.
-
-AWS ECR Integration:
-Docker images are built, then pushed to AWS ECR repository.
-IAM roles and policies are configured to ensure secure access.
-
 ## Steps to use Dockerfile
 1. Clone the Repository   
 git clone  https://github.com/1ahmedharris/Docker-Image-Builder.git  
