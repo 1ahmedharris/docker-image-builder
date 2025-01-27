@@ -6,7 +6,7 @@ This repository demonstrates a GitHub Actions CI/CD pipeline that builds a Docke
 Dockerfile:
 Builds a lightweight Docker image for the application.
 
-GitHub Actions CI/CD Pipeline:
+GitHub Actions CI/CD Workflow:
 Automates building, tagging, then pushing Docker images to AWS ECR.
 ## Steps to Clone Repository
 1. Clone the Repository   
