@@ -17,7 +17,7 @@ cd Docker-Image-Builder
 docker build -t app .    
 - Run Docker container.  
 docker run app
-## 2. Configure AWS ECR repository 
+## 2. Configure AWS ECR Repository 
 - Login to Your AWS Account.
 - Navigate to Amazon Elastic Container Registry (ECR).
 - Click Create repository.
