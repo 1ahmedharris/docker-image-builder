@@ -23,7 +23,7 @@ docker run app
 - Click Create repository.
 - Enter Repository name.
 - Configure necessary settings.
-- Click Create repository.
+- Create repository.
 ## 3. Configure GitHub Actions Secrets
 - Go to Docker-Image-Builder repository.
 - Click Settings.
