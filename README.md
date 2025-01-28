@@ -1,6 +1,6 @@
 # Automated-Docker-Image-Builder
 ## Overview
-Automating Docker image uploads to Amazon Elastic Container Registry (ECR). 
+Automating Docker image uploads to AWS Elastic Container Registry (ECR). 
 This repository demonstrates a GitHub Actions CI/CD pipeline that builds a Docker image for a simple Python "Hello World" application, then pushes the image to AWS ECR. 
 ## Features
 Dockerfile:
