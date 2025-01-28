@@ -35,3 +35,6 @@ $ AWS_REGION: Your ECR region
 $ ECR_REPOSITORY: Your AWS ECR repository name  
 ## 4. Push Images to AWS ECR
 - Commit to repository
+## Monitoring 
+- Navigate to Actions tab
+- Check status of workflow 
