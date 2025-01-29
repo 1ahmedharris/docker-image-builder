@@ -1,5 +1,5 @@
 # Install Python base image
-FROM python:3.9-slim
+FROM python:3.9-slim-buster
 
 # Set image working directory  
 WORKDIR /app
