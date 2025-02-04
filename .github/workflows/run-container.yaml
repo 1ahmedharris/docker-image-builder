@@ -1,4 +1,4 @@
-name: Pull & Run Container on EC2
+name: Pull Image & Run Container on EC2
 
 on:
   push:
@@ -21,18 +21,17 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ secrets.AWS_REGION }}
         
-    # Step 2: Setup SSH agent Login
+    # Step 2: Setup SSH agent login
     - name: Set up SSH
       uses: webfactory/ssh-agent@v0.5.0
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    # Add EC2 host to known hosts
+    # Add EC2 private key to runner
     - name: Add EC2 host to known hosts
       run: |
         mkdir -p ~/.ssh
         ssh-keyscan -H ${{ secrets.EC2_HOST }} >> ~/.ssh/known_hosts
-
 
     # Step 4: Run Container
     - name: Deploy container to EC2
