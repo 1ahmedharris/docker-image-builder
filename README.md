@@ -5,7 +5,6 @@ This repository demonstrates a GitHub Actions CI/CD pipeline that builds a Docke
 ## Features
 Dockerfile:
 Builds lightweight Docker image for the application.
-
 GitHub Actions CI/CD Workflow push-image.yml:
 Automates building, tagging, then pushing Docker images to AWS ECR.  
 GitHub Actions CI/CD Workflow run-container.yml:
