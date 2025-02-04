@@ -27,7 +27,7 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    # Add EC2 private key to runner
+    # Add SSH key to runner
     - name: Add EC2 host to known hosts
       run: |
         mkdir -p ~/.ssh
