@@ -1,11 +1,7 @@
-# Install Python base image
-FROM python:3.9-slim-buster
+FROM nginx:alpine
 
-# Set image working directory  
-WORKDIR /app
+COPY . /usr/share/nginx/html
 
-# Copy app into image 
-COPY app.py /app  
+EXPOSE 8300
 
-# Run command to start application
-CMD ["python3", "app.py"]
+CMD ["nginx", "-g", "daemon off;"]
