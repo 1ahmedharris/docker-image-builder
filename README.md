@@ -30,12 +30,12 @@ docker run app
 - Click New repository secret, add the following secrets:  
 $ AWS_ACCESS_KEY_ID: Your AWS access key ID  
 $ AWS_SECRET_ACCESS_KEY: Your AWS secret access key   
-$ AWS_REGION: Your ECR region    
-$ ECR_REPOSITORY: Your AWS ECR repository name
-$ ECR_REGISTRY: Your full registry URL
-$ EC2_HOST: EC2 IP address
-$ EC2_USERNAME: EC2 Host username
-$ SSH_PRIVATE_KEY: EC2 Private Key
+$ AWS_REGION: Your ECR region      
+$ ECR_REPOSITORY: Your AWS ECR repository name  
+$ ECR_REGISTRY: Your full registry URL  
+$ EC2_HOST: EC2 IP address  
+$ EC2_USERNAME: EC2 Host username  
+$ SSH_PRIVATE_KEY: EC2 Private Key  
 ## 4. Push Images to AWS ECR
 - Commit to repository
 ## 5. Monitoring 
