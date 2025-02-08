@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-# Copy your frontend source code
+# Copy code
 COPY . /usr/share/nginx/html/
 
 # Copy nginx configuration
