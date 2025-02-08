@@ -1,4 +1,4 @@
-# Automated-Docker-Container-Builder
+# Automated-Docker-Image-Builder
 ## Overview
 Automating Docker image uploads to AWS Elastic Container Registry (ECR). 
 This repository demonstrates a GitHub Actions CI/CD pipeline that builds a Docker image for a simple Python "Hello World" application, then pushes the image to AWS ECR. 
@@ -23,7 +23,7 @@ docker run app
 - Configure necessary settings.
 - Create repository.
 ## 3. Configure GitHub Actions Secrets
-- Go to docker-container-builder repository.
+- Go to docker-image-builder repository.
 - Click Settings.
 - Navigate to Secrets and variables, Click Actions.
 - Click New repository secret, add the following secrets:  
