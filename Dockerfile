@@ -1,16 +1,11 @@
-FROM nginx:alpine
 
-# Copy code
-COPY . /usr/share/nginx/html/
+FROM python:3.9-slim-buster
 
-# Copy nginx configuration
-COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+# Set the working directory inside the container
+WORKDIR /app
 
-# Set permissions
-RUN chown -R nginx:nginx /usr/share/nginx/html
+# Copy the application code
+COPY app.py .
 
-# Expose port 8300
-EXPOSE 8300
-
-# RUN server
-CMD ["nginx", "-g", "daemon off;"]
+# Specify command to run when the container starts
+CMD ["python", "hello.py"]
