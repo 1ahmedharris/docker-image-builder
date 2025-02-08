@@ -9,7 +9,7 @@ Builds lightweight Docker image for the application.
 ## Getting Started
 ## 1. Clone Repository
 - Clone the Repository.   
-git clone  https://github.com/1ahmedharris/Docker-Image-Builder.git  
+git clone  https://github.com/1ahmedharris/docker-container-builder.git  
 cd Docker-Image-Builder  
 - Build and Run Locally.   
 docker build -t app .    
