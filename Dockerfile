@@ -5,7 +5,7 @@ FROM python:3.9-slim-buster
 WORKDIR /app
 
 # Copy the application code
-COPY app.py .
+COPY hello-world.py .
 
 # Specify command to run when the container starts
-CMD ["python", "hello.py"]
+CMD ["python", "hello-world.py"]
